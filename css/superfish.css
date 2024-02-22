@@ -59,12 +59,12 @@ ul.sf-menu>li>a {
 	display: inline;
 	font-weight: normal;
 	text-transform:uppercase;
-	color:#c4c4c4;
+	color:#ffffff;
 
 }
 
 ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a, ul.sf-menu>li.current>a, ul.sf-menu>li:hover>a {
-	color: #8a8a8a;
+	color: #b6ee76;
 }
 
 ul.sf-menu>li:first-child {
@@ -109,7 +109,7 @@ ul.sf-menu>li.sfHover>a>span {
 	height: 0; 
 	border-left: 7px solid transparent;
 	border-right: 7px solid transparent;
-	border-bottom: 12px solid #a6dd26;
+	border-bottom: 12px solid #181f07;
 	left: 50%;
 	margin-left: -7px;
 }

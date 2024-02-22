@@ -12,7 +12,7 @@ body {
 	min-width:960px;
 	height: 100%;
 	min-height: 100%;
-	background: url(../images/bg_body.jpg) center 0 repeat #DBDDDC;
+	background: url(../images/bg_body4.jpg) center fixed #a9f3ce;
 }
 
 html, body {
@@ -32,7 +32,7 @@ h2 {
 	font-weight: bold;
 	margin-bottom: 0px;
 	font-weight: bold;
-	color: #8a8a8a;
+	color: #f1eaea;
 	margin-top: 56px;
 }
 
@@ -117,7 +117,7 @@ ul.list1 li {
 
 a {
 	text-decoration: none;	
-	color: #8a8a8a;
+	color: #c0f03c;
  	outline: none;	
 	transition: 0.5s linear;
 	-o-transition: 0.5s linear;
@@ -125,7 +125,7 @@ a {
 }
 
 a:hover {
-	color: #89d10b;	
+	color: #141414;	
 }
 
 a.btn {
@@ -140,7 +140,7 @@ a.btn {
 }
 
 a.btn:hover {
-	background: #989898;
+	background: #e5e744;
 }
 
 a.link1 {
@@ -204,6 +204,7 @@ p.text1 a {
 	margin-bottom: 0!;
 }
 
+
 .img_inner {
 	border-radius: 19px;
 	float: left;
@@ -220,14 +221,18 @@ p.text1 a {
 	background-color: #ebebeb;
 	margin-bottom: 25px;	
 }
-
+.imgggg{
+	width: 800px;
+}
 .center {
-	text-align: center;	
+	text-align: center;
 }
 
 .wrapper {
 	overflow: hidden;	
 }
+
+
 
 .clear {
 	float: none !important;
@@ -238,9 +243,9 @@ p.text1 a {
 
 header {
 	padding-top: 19px;
-	background: #fff;
+	background: #ffffff05;
 	padding-bottom: 29px;
-	border-bottom: 1px solid #d9dbdb;
+	border-bottom: 1px solid #000000;
 }
 
 header h1 {
@@ -255,11 +260,12 @@ header h1 a {
 	overflow: hidden;
 	text-indent: -999px;
 	width: 148px;
-	height: 35px;	
+	height: 35px;
+
 }
 
 .banner {
-	min-height: 477px;
+	min-height: 47px;
 	background: url(../images/banner_bg.png) 0 0 repeat-x;
 	padding-bottom: 64px;
 	
@@ -272,14 +278,14 @@ header h1 a {
 }
 
 .banner a.btn {
-	background: url(../images/banne_btn.png) 0 0 repeat-x #74c909;
+	background: url(../images/banne_btn.png) 0 0 repeat-x #acc909;
 	font: bold 21px/33px 'Open Sans', sans-serif;
 	display: inline-block;
 	text-transform: uppercase;
 	padding: 9px 18px 10px 60px;
 	color: #fff;
 	border-radius: 10px;
-	margin-top: 47px;
+	margin-top: 0px;
 	position: relative;
 }
 
@@ -369,6 +375,8 @@ header h1 a {
 	margin-left: 47px;
 }
 
+
+
 .logos a:hover {
 	opacity: 0.5;	
 }
@@ -394,10 +402,6 @@ header h1 a {
 	background-position: -748px top;	
 	width: 175px;
 	margin-left: 20px;
-}
-
-
-#cycle {
 }
 
 #cycle img{
@@ -513,10 +517,10 @@ footer {
 .footer_logo {
 	background: url(../images/footer_logo.png);
 	overflow: hidden;
-	height: 25px;
+	height: 50px;
 	position: relative;
 	top: 4px;
-	width: 106px;
+	width: 190px;
 	text-indent: -999px;
 	margin-right: 8px;
 	display: block;
