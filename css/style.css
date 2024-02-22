@@ -71,7 +71,8 @@ h4 {
 
 
 p {
-	margin-bottom: 23px;	
+	margin-bottom: 23px;
+	color: rgb(51, 37, 37);
 }
 
 
@@ -244,9 +245,9 @@ p.text1 a {
 
 header {
 	padding-top: 19px;
-	background: #ffffff05;
+	background: #88d10ba1;
 	padding-bottom: 29px;
-	border-bottom: 1px solid #000000;
+	border-bottom: 1px solid #ffffff;
 }
 
 header h1 {
@@ -279,7 +280,7 @@ header h1 a {
 }
 
 .banner a.btn {
-	background: url(../images/banne_btn.png) 0 0 repeat-x #acc909;
+	background: url(../images/banne_btn.png) 0 0 repeat-x #7af36f;
 	font: bold 21px/33px 'Open Sans', sans-serif;
 	display: inline-block;
 	text-transform: uppercase;
@@ -516,7 +517,7 @@ footer {
 	margin-bottom: 28px;
 }
 .footer_logo {
-	background: url(../images/footer_logo.png);
+	background: url(../images/logoCompleto2.png);
 	overflow: hidden;
 	height: 50px;
 	position: relative;
