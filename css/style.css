@@ -407,6 +407,7 @@ header h1 a {
 }
 
 #cycle img{
+	height: 270px;
 	float: left;
 	margin-right: 70px;
 	margin-top: 9px;
