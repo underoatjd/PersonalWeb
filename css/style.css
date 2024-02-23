@@ -118,7 +118,7 @@ ul.list1 li {
 
 a {
 	text-decoration: none;	
-	color: #c0f03c;
+	color: #89d10b;
  	outline: none;	
 	transition: 0.5s linear;
 	-o-transition: 0.5s linear;
@@ -133,7 +133,7 @@ a.btn {
 	font: bold 18px/18px 'Open Sans', sans-serif;
 	color: #fff;
 	padding: 12px 15px 13px 14px;
-	background: url(../images/btn_bg.png) repeat-x 0 0 #74c909;
+	background: url(../images/btn_bg.png) repeat-x 0 0 #161614;
 	border-radius: 10px;
 	text-transform: uppercase;
 	display: inline-block;
@@ -153,12 +153,12 @@ a.link1 {
 }
 
 a.link2 {
-	color: #89d10b;
+	color: #0c0c0c;
 }
 
 
 a.link2:hover {
-	color: #8a8a8a;	
+	color: #070707;	
 }
 /*preclass*/
 
@@ -280,7 +280,7 @@ header h1 a {
 }
 
 .banner a.btn {
-	background: url(../images/banne_btn.png) 0 0 repeat-x #7af36f;
+	background: url(../images/banne_btn.png) 0 0 repeat-x #89d10b;
 	font: bold 21px/33px 'Open Sans', sans-serif;
 	display: inline-block;
 	text-transform: uppercase;
@@ -303,7 +303,7 @@ header h1 a {
 }
 
 .banner a.btn:hover {
-	background: #989898;
+	background: #0e0d0d;
 }
 
 .block1 {
@@ -533,6 +533,10 @@ footer {
 
 .socials {
 	padding-bottom: 36px;	
+	height: 48px;
+}
+
+.logofooter{
 	height: 48px;
 }
 
