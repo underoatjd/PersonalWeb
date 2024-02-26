@@ -141,6 +141,19 @@ a.btn {
 	margin-top: 5px;
 }
 
+a.btn2 {
+	display: flex;
+	justify-content: center;
+	font: bold 18px/18px 'Open Sans', sans-serif;
+	color: #fff;
+	padding: 12px 15px 13px 14px;
+	background: url(../images/btn_bg.png) repeat-x 0 0 #161614;
+	border-radius: 10px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 5px;
+}
+
 a.btn:hover {
 	background: #e5e744;
 }
@@ -322,18 +335,50 @@ header h1 a {
 	line-height: 24px;
 }
 
+.grid_700{
+	border-top: 13px solid #ededed;
+	text-align: center;
+}
+
+  
+/*****************************************************************************************************************/
+.grid_700 {
+	width: 100%; /* Hace que .grid_700 use el 85% del ancho de su contenedor padre */
+	margin: 20px auto; /* Centra .grid_700 horizontalmente en su contenedor padre con un poco de margen superior e inferior */
+	text-align: center; /* Centra el texto y los elementos en línea dentro de .grid_700 */
+	background-color: #f0f0f0; /* Color de fondo claro para .grid_700 */
+	padding: 20px; /* Agrega un poco de espacio alrededor del contenido dentro de .grid_700 */
+	border-radius: 8px; /* Bordes redondeados para suavizar las esquinas */
+	box-shadow: 0 2px 4px rgba(133, 98, 98, 0.1); /* Sombra sutil para dar profundidad */
+  }
+  
+  .head1 {
+	color: #333; /* Color oscuro para el título, para contraste */
+	margin-bottom: 15px; /* Espacio después del título */
+  }
+  
+  p {
+	color: #666; /* Color más suave para el texto, para fácil lectura */
+	margin-bottom: 15px; /* Espacio antes del botón */
+  }
+  
+  .btn2:hover {
+	background-color: #0056b3; /* Color de fondo más oscuro al pasar el mouse */
+  }
+/******************************************************************************************/
 
 .block2 {
 	border-top: 13px solid #ededed;
 	background: #f2f2f2;
+	text-align: center;
 }
 
 .block2>div {
-	padding-bottom: 71px;	
+	padding-bottom: 71px;
+	text-align: center;
 }
 
-.block2 h2 {
-	text-align: left;
+.block2 h2.head1 {
 	width: auto;	
 }
 
@@ -365,7 +410,8 @@ header h1 a {
 }
 
 .logos {
-	margin-top: -23px;	
+	margin-top: -23px;
+	text-align: center;
 }
 
 .logos a {
@@ -375,9 +421,13 @@ header h1 a {
 	display: block;
 	width: 140px;
 	margin-left: 47px;
+	text-align: center;
 }
 
-
+.container_130{
+	text-align: center;
+	
+}
 
 .logos a:hover {
 	opacity: 0.5;	
